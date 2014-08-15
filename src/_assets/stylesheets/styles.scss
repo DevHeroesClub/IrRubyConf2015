@@ -25,12 +25,23 @@ body {
 header {
    height: 3em;
    width: 100%;
-   border-bottom: 2px solid $red;
+   background: $red;
+   color: white;
+
+   border-bottom: 2px solid $white;
 }
 
 section {
    &.head {
       //background: $red;
       height: 50rem;
+
+      .middle {
+         color: $darkgray;
+         .conflogo {
+            margin-top: 20rem;
+            font-size: 4em;
+         }
+      }
    }
 }
