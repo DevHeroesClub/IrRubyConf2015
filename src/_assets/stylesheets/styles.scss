@@ -33,7 +33,7 @@ header {
 
 section {
    &.head {
-      //background: $red;
+      background: url(image-path('banner.svg')) 0 3em repeat-x transparent;
       height: 50rem;
 
       .middle {
