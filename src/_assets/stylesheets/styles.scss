@@ -23,12 +23,11 @@ body {
 }
 
 header {
+   position:fixed;
+   background: white;
    height: 3em;
    width: 100%;
-   background: $red;
-   color: white;
-
-   border-bottom: 2px solid $white;
+   color: $darkgray;
 }
 
 section {
@@ -44,4 +43,22 @@ section {
          }
       }
    }
+   &.about {
+      background: $purple;
+      height: 50rem;
+   }
+
+   &.schedule {
+      background: $blue;
+      height: 50rem;
+   }
+   &.sponsors {
+      background: $green;
+      height: 50rem;
+   }
+}
+
+footer {
+   background: $white;
+   height: 5em;
 }
