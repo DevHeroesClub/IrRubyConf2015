@@ -45,7 +45,12 @@ section {
    }
    &.about {
       background: $purple;
-      height: 50rem;
+      padding-top: 10em;
+      padding-bottom: 10em;
+      color: white;
+      p {
+         text-indent: 10pt;
+      }
    }
 
    &.schedule {
