@@ -23,7 +23,7 @@ body {
 }
 
 header {
-   position:fixed;
+   //position:fixed;
    background: white;
    height: 3em;
    width: 100%;
@@ -34,7 +34,7 @@ section {
    &.section {
       padding-top: 10em;
       padding-bottom: 10em;
-      color: white;
+
       p {
          text-indent: 10pt;
          line-height: 1.5;
@@ -57,10 +57,11 @@ section {
    }
    &.about {
       background: $purple;
+      color: white;
    }
 
    &.schedule {
-      background: $blue;
+      //background: $blue;
    }
    &.sponsors {
       background: $green;
