@@ -135,11 +135,6 @@ section {
    }
 }
 
-footer {
-   background: $white;
-   height: 5em;
-}
-
 
 .speaker {
 
@@ -183,4 +178,15 @@ footer {
 
 .halfmargin {
    margin-top: 0.5rem !important;
+}
+
+footer {
+   background: $purple;
+   color: white;
+   .first.row {
+      margin-top: 3rem;
+   }
+   a {
+      color: $yellow;
+   }
 }
