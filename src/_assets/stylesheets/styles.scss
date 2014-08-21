@@ -143,9 +143,23 @@ footer {
 
 
 .fixedbg {
-   background: url(image-path('pat1.png')) 0 0 repeat, url(image-path('hbg.jpg')) 0 0 no-repeat transparent;
+   //background: url(image-path('pat1.png')) 0 0 repeat, url(image-path('hbg.jpg')) center 0 no-repeat transparent;
+   //background: url(image-path('pat1.png')) 0 0 repeat;
+   //background: url(image-path('hbg.jpg')) center 0 no-repeat transparent;
    position: fixed;
    height: 50em;
-   z-index: -1;
    width: 100%;
+}
+
+.pointsbg {
+   background: url(image-path('pat1.png')) 0 0 repeat;
+   z-index: -1;
+
+}
+
+.citybg {
+   background: url(image-path('hbg.jpg')) center 0 no-repeat transparent;
+   z-index: -2;
+   background-size: cover;
+
 }
