@@ -16,7 +16,7 @@ html, body {
 
 .button {
    font-family: 'Jura', sans-serif;
-   text-transform: none;
+   text-transform: none !important;
 }
 body {
    width: 100%;
@@ -61,7 +61,15 @@ section {
       height: 50rem;
 
       .social {
-         margin-top: 2rem !important;
+         padding-top: 2rem !important;
+         a {
+            opacity: 0.75;
+            transition: opacity 300ms linear 0ms;
+            &:hover {
+               opacity: 1;
+               transition: opacity 300ms linear 0ms;
+            }
+         }
       }
       .middle {
          color: $darkgray;
