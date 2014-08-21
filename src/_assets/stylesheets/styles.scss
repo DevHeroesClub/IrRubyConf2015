@@ -50,7 +50,7 @@ section {
    }
 
    &.head {
-      background: url(image-path('pat1.png')) 0 0 repeat transparent;
+      background: url(image-path('pat1.png')) 0 0 repeat, url(image-path('hbg.jpg')) 0 0 no-repeat transparent;
       height: 50rem;
 
       .middle {
