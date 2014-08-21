@@ -25,9 +25,14 @@ body {
 header {
    //position:fixed;
    background: white;
-   height: 3em;
+   height: 3.7em;
    width: 100%;
    color: $darkgray;
+
+   .logo {
+      text-indent: -999px;
+      background: url(image-path('iranonrails.svg')) 0 0 no-repeat transparent;
+   }
 }
 
 section {
