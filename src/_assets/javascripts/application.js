@@ -7,12 +7,9 @@
 $(function() {
     // Stick the #nav to the top of the window
     var nav = $("#mainmenu");
-    var mnav = $("#mobilemenu");
     var navHomeY = nav.offset().top;
-    var mnavHomeY = mnav.offset().top;
 
     var isFixed = false;
-    var misFixed = false;
     var $w = $(window);
 
     $w.scroll(function() {
@@ -35,24 +32,6 @@ $(function() {
             });
             isFixed = false;
             $("#toparrow").fadeOut();
-        }
-
-        var shouldBeFixed = scrollTop > mnavHomeY;
-        if (shouldBeFixed && !misFixed) {
-            mnav.css({
-                position: 'fixed',
-                top: 0,
-                left: nav.offset().left,
-                width: nav.width()
-            });
-            misFixed = true;
-        }
-        else if (!shouldBeFixed && misFixed)
-        {
-            mnav.css({
-                position: 'static'
-            });
-            misFixed = false;
         }
 
     });
