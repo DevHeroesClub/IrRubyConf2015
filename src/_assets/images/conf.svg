@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="711.09003"
-   height="700.35999"
+   width="600"
+   height="590.35999"
    id="svg3982"
    version="1.1"
    inkscape:version="0.48.5 r10040"
@@ -41,13 +41,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
      inkscape:cx="169.02961"
-     inkscape:cy="396.79309"
+     inkscape:cy="558.4175"
      inkscape:document-units="px"
      inkscape:current-layer="g3955"
      showgrid="false"
      inkscape:window-width="1278"
-     inkscape:window-height="1004"
-     inkscape:window-x="1280"
+     inkscape:window-height="780"
+     inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="1" />
   <metadata
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,13 +66,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-351.99789)">
+     transform="translate(0,-461.99678)">
     <g
        id="g3955"
        transform="matrix(0.66388546,-0.74783427,0.74783427,0.66388546,180.3122,-413.47563)">
       <path
-         transform="matrix(0.99994552,-0.01043804,0.01043804,0.99994552,-1007.5713,349.42818)"
-         d="m 620,528.07648 a 335.71429,335.71429 0 1 1 -671.428589,0 335.71429,335.71429 0 1 1 671.428589,0 z"
+         transform="matrix(0.8314552,-0.00867924,0.00867924,0.8314552,-1038.6021,433.15509)"
+         d="m 620,528.07648 c 0,185.40988 -150.30441,335.71429 -335.71429,335.71429 -185.40989,0 -335.714299,-150.30441 -335.714299,-335.71429 0,-185.40989 150.304409,-335.7143 335.714299,-335.7143 C 469.69559,192.36218 620,342.66659 620,528.07648 z"
          sodipodi:ry="335.71429"
          sodipodi:rx="335.71429"
          sodipodi:cy="528.07648"
@@ -164,7 +164,7 @@
       </g>
       <g
          id="g5349"
-         transform="translate(-10.59154,33.716448)">
+         transform="matrix(0.8315005,0,0,0.8315005,-209.61289,170.64063)">
         <g
            id="g6246"
            inkscape:export-filename="/home/lxsameer/src/IOR/IrRubyConf2015/src/_assets/images/high-logo.png"

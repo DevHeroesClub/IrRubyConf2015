@@ -90,10 +90,16 @@ section {
             }
          }
       }
-      .middle {
+      #middle {
          color: $darkgray;
+         margin-top: 10rem;
+
+         img {
+            margin: 0 auto;
+            width: 10rem;
+            height: 10rem;
+         }
          .conflogo {
-            margin-top: 17rem;
             font-size: 4rem;
             .red {
                color: $red;
