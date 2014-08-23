@@ -4,6 +4,7 @@
  *= require semantic/dropdown
  *= require semantic/sidebar
  */
+
 $(function() {
     // Stick the #nav to the top of the window
     var nav = $("#mainmenu");
@@ -35,4 +36,9 @@ $(function() {
         }
 
     });
+
+     $(".ui.dropdown").dropdown();
+     $(".ui.sidebar").sidebar({overlay: true}).sidebar('attach events', '.toggle.btn');
+
+
 });

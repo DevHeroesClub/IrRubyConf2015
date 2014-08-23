@@ -26,19 +26,6 @@ title: IrRubyConf 2015
     </div>
   </section>
 
-  <div class="ui mobile only thin left sidebar floating vertical menu">
-    <div class="item"><a href="#listen"><%= t(:last_episode) %></a></div>
-    <div class="item"><a href="/archive/"><%= t(:archive) %></a></div>
-    <!-- <div class="item"><a href="/faq"><%= t(:faq) %></a></div>-->
-    <div class="item"><a href="http://twitter.com/radio_boot"><i class="twitter icon"></i> <%= t(:twitter) %></a></div>
-    <div class="item"><a href="http://www.facebook.com/radioboot.podcast"><i class="facebook squere icon"></i> <%= t(:facebook) %></a></div>
-    <div class="item"><a href="https://www.google.com/+RadioBoot_com"><i class="google plus icon"></i> <%= t(:googleplus) %></a></div>
-    <div class="item"><a href="/feed/"><i class="rss icon"></i> <%= t(:rss) %></a></div>
-    <div class="item"><a href="/<%= @locale == 'fa' ?  'en' : 'fa' %><%= @path %>" class="ui green tiny fluid button"> <%= t(:lang) %></a></div>
-    <div class="item"><a class="blackcolored toggle button mobile" href="#"><i class="remove icon"></i> <%= t(:close) %></a></div>
-  </div>
-
-
   <header id="mainmenu">
     <div class="ui two column mobile tablet only page grid">
       <div class="ten wide column">
@@ -46,13 +33,12 @@ title: IrRubyConf 2015
       </div>
       <div class="six right aligned wide column">
         <div class="ui horizontal huge list nav">
-          <a class="item" href="#">
+          <div class="item point toggle btn">
             <i class="reorder icon"></i>
-          </a>
+          </div>
         </div>
       </div>
     </div>
-
 
     <div class="ui two column computer only page grid">
       <div class="four wide column">
@@ -82,6 +68,35 @@ title: IrRubyConf 2015
       </div>
     </div>
   </header>
+
+
+  <div id="side" class="ui sidebar floating vertical menu">
+    <a class="item" href="/">
+      Home
+    </a>
+    <a class="item">
+      Location
+    </a>
+    <a class="item">
+      Registeration
+    </a>
+    <a class="item">
+      Policies
+    </a>
+    <a class="item">
+      Sponsors
+    </a>
+
+    <div class="item">
+      <a class="blackcolored toggle btn mobile">
+        <i class="remove icon"></i> Close
+      </a>
+    </div>
+  </div>
+
+
+
+
 
   <section class="about section">
     <div class="ui two column stackable very relaxed page grid">
