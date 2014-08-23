@@ -46,6 +46,7 @@ header {
       background: url(image-path('iranonrails.svg')) 0 0 no-repeat transparent;
    }
    .nav {
+      width: 100%;
       a {
          transition: border-bottom 300ms linear 0ms;
          color: $darkgray;
