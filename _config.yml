@@ -1,8 +1,8 @@
-name: IrRubyConf 2015
+name: ME.RubyConf 2015
 markdown: redcarpet
 highlighter: pygments
 url: http://2015.iranonrails.ir
-description: Iran Ruby Conference 2015
+description: Middle East Ruby Conference 2015
 copyright: copyright 2014-2015 @iranonrails
 rss_path: /feed
 rss_name: feed.xml
