@@ -1,0 +1,151 @@
+@import url("http://fonts.googleapis.com/css?family=Jura:600,300");
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  color: #2f2f2f;
+  font-family: 'Jura', sans-serif; }
+
+.button {
+  font-family: 'Jura', sans-serif;
+  text-transform: none !important; }
+
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  overflow-x: hidden; }
+
+.body {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background: white;
+  height: 3.7em;
+  width: 100%;
+  color: #2f2f2f;
+  border-bottom: 1px solid #bfbfbf;
+  z-index: 777; }
+  header .logo {
+    text-indent: -999px;
+    background: url("/assets/iranonrails-5e64866ad546d5eea069c31af562e62b.svg") 0 0 no-repeat transparent; }
+  header .nav {
+    width: 100%; }
+    header .nav a {
+      transition: border-bottom 300ms linear 0ms;
+      color: #2f2f2f; }
+      header .nav a:hover {
+        border-bottom: 2px solid #482344;
+        transition: border-bottom 300ms linear 0ms;
+        color: #482344; }
+
+section {
+  z-index: 500; }
+  section.section {
+    padding-top: 10em;
+    padding-bottom: 10em; }
+    section.section p {
+      text-indent: 10pt;
+      line-height: 1.3;
+      font-size: 1em;
+      padding: 1em 0; }
+  section.head {
+    height: 50rem; }
+    section.head .social {
+      padding-top: 2rem !important; }
+      section.head .social a {
+        opacity: 0.75;
+        transition: opacity 300ms linear 0ms; }
+        section.head .social a:hover {
+          opacity: 1;
+          transition: opacity 300ms linear 0ms; }
+    section.head #middle {
+      color: #2f2f2f;
+      margin-top: 10rem; }
+      section.head #middle img {
+        margin: 0 auto;
+        width: 10rem;
+        height: 10rem; }
+      section.head #middle .conflogo {
+        font-size: 4rem; }
+        section.head #middle .conflogo .red {
+          color: #e02130; }
+        section.head #middle .conflogo .huge {
+          display: inline; }
+  section.about {
+    background: #482344;
+    color: white; }
+    section.about p {
+      font-weight: 300;
+      text-align: justify; }
+    section.about .row {
+      margin-top: 1em; }
+    section.about a {
+      color: #fab243;
+      text-decoration: none; }
+  section.news {
+    min-height: 30rem;
+    background-color: white;
+    background-image: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 25%), linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, white 100%), url("/assets/waves-grey-b94d208befa42c8111f3b54abb376825.svg"); }
+    section.news a {
+      color: #482344;
+      font-weight: 700; }
+    section.news .page p {
+      font-size: 1.3rem; }
+    section.news .page .header {
+      font-size: 2rem; }
+  section.sponsors {
+    background: #429867; }
+
+.speaker {
+  border: 2px solid white;
+  border-radius: 64px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.75); }
+  .speaker:hover {
+    background: radial-gradient(ellipse at center, white 0%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%); }
+
+.ui.grid .row.sponsors {
+  margin-top: 20rem;
+  margin-bottom: 15rem; }
+
+.fixedbg {
+  position: fixed;
+  height: 50em;
+  width: 100%; }
+
+.pointsbg {
+  background: url("/assets/pat1-149d8e60a5b9b482507c52020e651164.png") 0 0 repeat;
+  z-index: -1; }
+
+.citybg {
+  background: url("/assets/hbg-65c6299443f053d1310677f37b59fd3d.jpg") center 0 no-repeat transparent;
+  z-index: -2;
+  background-size: cover; }
+
+.halfmargin {
+  margin-top: 0.5rem !important; }
+
+footer {
+  background: #482344;
+  color: white; }
+  footer .first.row {
+    margin-top: 3rem; }
+  footer a {
+    color: #fab243; }
+
+.blue {
+  color: #2b5166; }
+
+.email {
+  color: #429867; }
+
+.point {
+  cursor: pointer; }
+
+.sidebar {
+  z-index: 999; }
